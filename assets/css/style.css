@@ -5,6 +5,8 @@
 
 body{
     background-color: black;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1#intro{
@@ -27,7 +29,7 @@ h2#nome{
 .container{
     overflow:hidden;
     width: 500px;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +44,7 @@ h2#nome{
 .about-me{
     text-align: center;
     color: white;
+    
 
 }
 
@@ -55,9 +58,9 @@ a{
 
 svg {
     position: absolute;
-    bottom: -700px;
+    bottom: -800px;
     right: 0;
-    left: 0;
+    left: -400px;
     
 }
 
