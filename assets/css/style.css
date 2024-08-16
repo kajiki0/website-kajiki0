@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background-color: black;
+}
+
+h1#intro{
+    font-size: 4rem;
+    font-family: "Jersey 10", sans-serif;
+    color:white;
+    text-align: center;
+    
+}
+h2#nome{
+    font-size: 3rem;
+    font-family: "Roboto Mono", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #20C20E;
+    text-align: center;
+}
+
+
+.container{
+    overflow:hidden;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -250px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+.about-me{
+    text-align: center;
+    color: white;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+svg {
+    position: absolute;
+    bottom: -700px;
+    right: 0;
+    left: 0;
+    
+}
+
+.profile{
+    width: 23rem;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
