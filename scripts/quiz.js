@@ -46,7 +46,7 @@ function selectAnswer(e) {
 function showResult(score) {
     if(score==1){
         quiz.innerHTML = `
-        <h1>Congratulations, there is a hidden link bellow the blue slime!</h1>
+        <h1>Congratulations,<br>there is a hidden link <br>bellow the blue slime!</h1>
         <br>
     `;
     }
