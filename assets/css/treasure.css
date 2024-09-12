@@ -22,7 +22,7 @@ h1#title{
 .container{
     overflow:hidden;
     width: 500px;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ h1#title{
     margin: -5px 0 0 -15.5rem;
     font-family: 'Roboto Condensed', sans-serif;
     bottom: 20rem;
-    margin-top: 20rem;
+    margin-top: 15rem;
     
     
 }
@@ -64,11 +64,45 @@ a{
 
 
 
-.container#smile{
+.container#slime{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     
     
+}
+
+#quiz{
+    height: 200px;
+    max-width: 500px;
+    margin:0 auto;
+    padding:20px;
+    position: relative;
+    background-color: black;
+}
+
+#question{
+    margin-bottom: 20px;
+}
+
+#options{
+    display:grid;
+    gap:10px;
+    grid-template-columns:none;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(227, 238, 10), 245, 161;
+    color: #131313;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
 }
