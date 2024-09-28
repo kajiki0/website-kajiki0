@@ -29,7 +29,7 @@ h2#nome{
 .container{
     overflow:hidden;
     width: 500px;
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
